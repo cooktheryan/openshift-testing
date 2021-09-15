@@ -2,6 +2,6 @@
 
 set -e -o pipefail
 
-kubectl delete deployment test
-kubectl delete svc colors
-kubectl delete sa test
+/usr/local/bin/kubectl delete deployment test
+/usr/local/bin/kubectl delete svc colors
+/usr/local/bin/kubectl delete sa test
